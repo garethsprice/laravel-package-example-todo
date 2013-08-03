@@ -1,0 +1,23 @@
+{
+    "name": "ready-set-rocket/todo",
+    "description": "",
+    "authors": [
+        {
+            "name": "Gareth Price",
+            "email": "gareth@readysetrocket.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "ReadySetRocket\\Todo": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
